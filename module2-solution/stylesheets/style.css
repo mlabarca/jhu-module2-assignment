@@ -3,14 +3,26 @@
   font-family: Helvetica;
 }
 
+.row {
+  width: 100%;
+}
+
+.row div {
+   float: left;
+}
+
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  
+  .col-lg-4 {
+    width: 33%;
+  }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  
+  .col-md-6 {
+    width: 50%;
+  }
 }
 
 /********** Small devices only **********/
