@@ -1,6 +1,10 @@
 /********** Base styles **********/
+body {
+	background-color: #000;
+}
 * {
   font-family: Helvetica;
+  color: #fff;
 }
 
 h1 {
@@ -21,10 +25,11 @@ h1 {
 }
 
 section.text {
+  background-color: #d03428;
   padding: 20px;
   padding-top: 50px;
   position: relative;
-  border: 1px solid black;
+  border: 1px solid white;
   margin: 20px;
   height: 200px; /* Unfortunately best solution for now */
   overflow: auto;
@@ -35,7 +40,21 @@ section.title {
   padding: 5px;
   right: 0px;
   top: 0px;
-  border: 1px dashed black;
+  border: 1px dashed white;
+  color: #000;
+}
+
+
+#bones{
+  background-color: #fcea6a;
+}
+
+#toy-store{
+  background-color: #f9f;
+}
+
+#ezequiel{
+  background-color: #9ff;
 }
 
 /********** Large devices only **********/
