@@ -7,8 +7,10 @@
   width: 100%;
 }
 
-.row div {
-   float: left;
+.row section {
+  float: left;
+  box-sizing: border-box;
+  padding: 20px
 }
 
 /********** Large devices only **********/
